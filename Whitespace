@@ -1,0 +1,35 @@
+Hot to find Whitespace:
+
+Use regular expression selectors 
+
+\s to find whitespace in a string.
+" " (space)
+\r (the carriage return)
+\n (newline)
+\t (tab)
+\f (the form feed).
+
+The whitespace regular expression looks like this:
+/\s+/g
+
+Help:
+\s+ means at least 1, possibly more, spaces.
+g means that the regex should match the string globally, so that str.replace will replace all occurrences of the pattern
+
+
+EXAMPLES:
+Instructions
+Use \s to select all the whitespace characters in the sentence string.
+
+// Setup
+var testString = "Count how many spaces are there in this sentence";
+
+
+
+WARNING ANSWER AHEAD:
+
+_____________________________________________________
+
+var expression = /\s+/g; 
+// This code counts the matches of expression in testString
+var spaceCount = testString.match(expression).length;
