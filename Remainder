@@ -1,0 +1,8 @@
+Easy tip to find Remainder is to divide the number by 2.
+
+num % 2 = 1 (17 is Odd)
+num % 2 = 0 (48 is Even)
+
+Example
+17 % 2 = 1 (17 is Odd)
+48 % 2 = 0 (48 is Even)
